@@ -120,8 +120,10 @@ button {
 }
 h2 {
     align-self: flex-end;
-    margin: 0px;
-    padding: 10px;
+    margin: 30px;
+    padding:0px;
+    font-size: 30px;
+    font-weight: 700;
 }
 .section-three p {
     margin: auto;
@@ -139,12 +141,26 @@ h2 {
     color:#E5E7EB;
     align-items: center;
     justify-content: space-between;
+    
 }
-.section-four button {
+.four-button button {
     border-color: #E5E7EB;
     margin: 10px 30px;
 }
 .four-text {
     max-width: 60%;
     margin: 10px 30px;
+}
+.section-four p {
+    font-size: 25px;
+    font-weight: lighter;
+    margin: 30px;
+}
+.footer {
+    background-color: #1F2937;
+    padding: 20px;
+}
+.footer p {
+        color: #E5E7EB;
+        text-align: center;
 }
