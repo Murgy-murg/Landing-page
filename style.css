@@ -43,6 +43,8 @@ ul {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
+    border-bottom: 2px solid silver;
+    padding: 0px 80px;
 }
 li a {
     text-decoration: none;
@@ -52,13 +54,12 @@ li a {
     /*background-color: #1F2937;*/
     display: flex;
     flex-direction: column;
-    padding-left: 80px;
-    padding-right: 80px;
 }
 
 
 .content > * {
     flex: 1;
+    margin: 0px 80px;
 }
 .left h1 {
     font-size: 48px;
