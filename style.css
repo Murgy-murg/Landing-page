@@ -1,11 +1,11 @@
 body {
-     /* This is a full fixed background image to be implemented once project complete
+     /* This is a full fixed background image to be implemented once project complete*/
     background-image: url("images/mines-of-moria.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    */
+    
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -49,7 +49,7 @@ li a {
     color: #E5E7EB;
 }
 .section-one {
-    background-color: #1F2937;
+    /*background-color: #1F2937;*/
     display: flex;
     flex-direction: column;
     padding-left: 80px;
@@ -83,6 +83,8 @@ button {
     text-align: center;
     display: flex;
     flex-direction: column;
+    color: #E5E7EB;
+    border: 2px solid silver
 }
 .container {
     display: flex;
@@ -101,7 +103,7 @@ button {
 .section-two h1 {
     font-size: 36px;
     font-weight: 900;
-    color: #1F2937;
+    /*color: #1F2937;*/
 }
 .section-two p {
     font-size: 18px;
@@ -113,9 +115,11 @@ button {
 }
 .section-three {
     display: flex;
-    background-color: #E5E7EB;
+    /*background-color: #E5E7EB;*/
     flex-direction: column;
     padding: 50px 50px 2.5px 50px;
+    color: #E5E7EB;
+    border-bottom: 2px solid silver;
 
 }
 h2 {
@@ -134,14 +138,14 @@ h2 {
 }
 .section-four {
     display: flex;
-    background-color: #3882F6;
+    /*background-color: #3882F6;*/
     margin: 50px;
     border-radius: 10px;
     padding: 10px;
-    color:#E5E7EB;
+    color: #E5E7EB;
     align-items: center;
     justify-content: space-between;
-    
+    border: 2px solid #3882f6
 }
 .four-button button {
     border-color: #E5E7EB;
