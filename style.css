@@ -20,8 +20,9 @@ img {
 .right img {
 
     width: 100%;
-    min-height: 300px;
+    min-height: 250px;
     border-radius: 20px;
+    min-width: 300px;
 }
 ul {
     display: flex;
@@ -38,6 +39,11 @@ ul {
     align-items: center;
     margin: 50px 0px;
     gap: 20px;
+    justify-content: space-between;
+}
+.left,
+.right {
+    flex: 1;
 }
 .header {
     display: flex;
@@ -58,7 +64,6 @@ li a {
 
 
 .content > * {
-    flex: 1;
     margin: 0px 80px;
 }
 .left h1 {
